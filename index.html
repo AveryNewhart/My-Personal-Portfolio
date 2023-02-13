@@ -12,9 +12,31 @@
     <title>My portfolio</title>
   </head>
   <body>
-    <header class="main-header">
+    <nav class="navbar navbar-expand-lg backgroundC">
+      <div class="container-fluid">
+        <a class="navbar-brand">Avery Newhart</a>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#abt">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#wor">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#con">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- <section class="container">
+    <header class="row">
+      <div>
       <h1>Avery Newhart</h1>
-      <nav class="main-nav">
+      </div>
+      <nav class="col-9">
         <ul>
           <li><a href=#abt>About Me</a></li>
           <li><a href=#wor>Work</a></li>
@@ -23,89 +45,73 @@
         </ul>
       </nav>
       </header>
+      </section>
       <section>
        <p class="subtitle">LETS GET IT!</p>
-      </section>
+      </section> -->
 
       <!-- This section will be holding a recent picture of me and a brief section about me. -->
-      <section class="main-sec container">
+      <section class="main-sec container-fluid">
         <div class="row">
-        <div class="aboutme col-3">
+        <div class="aboutme col-md-2">
         <h2 id="abt">About <br>Me</h2>
         </div>
-        <div class="col-9">
+        <div class="col-md-2">
         <img src="./assets/images/me.jpeg" alt="Picture of me" class="me-img">
+        </div>
+        <div class="col-md-8">
         <p>My names Avery Newhart and i'm 23 years old! I was born in Pennsylvania and then joined the Air Force and did weather! I was stationed down south in Louisiana! Now i'm back back to living in Pennsylvania and starting my new career! For fun I like to play vidoe games, go on hikes, and watch sports! </p>
         </div>
         </div>
       </section>
 
       <!-- This whole section will be the work section with all of my photos and links to my recent work. -->
-    <section class="container">
-      <div class="work-div col-3">
+    <section class="container-fluid">
+      <div class="row">
+      <div class="work-div col-md-3">
       <h2 id="wor">Work</h2>
       </div>
-      <div class="biggest col-9">
+      <div class="biggest col-md-3">
           <a href="https://averynewhart.github.io/Netflix-Review-Resource/" target="_blank"><img src="./assets/images/firstSS.png" alt="Surf report"> </a>
           <div class="surf-text">
           <h3>Netflix Review Resource</h3>
           <p>HTML/CSS/JAVASCRIPT</p>
           </div>
       </div>
-      </section>
-      
-      <!-- This will hold the first two images and the links to open the work. -->
-      <section>
-        <div class="first-row col-9">
-          <div>
-          <a href="https://github.com/AveryNewhart/Team-Profile-Generator" target="_blank"><img src="./assets/images/teamgen.png" alt="LED wall" class="led-img"> </a>
-          <div class="led-text">
-            <h3>Team Profile Gen</h3>
-            <p>JS/NODEJS/HTML/CSS</p>
-          </div>
-          </div>
-          <div>
+      <div class="col-md-3">
+        <a href="https://github.com/AveryNewhart/Team-Profile-Generator" target="_blank"><img src="./assets/images/teamgen.png" alt="LED wall" class="led-img"> </a>
+        <div class="led-text">
+          <h3>Team Profile Gen</h3>
+          <p>JS/NODEJS/HTML/CSS</p>
+        </div>
+        </div>
+        <div class="col-md-3">
           <a href="https://github.com/AveryNewhart/README-Generator" target="_blank" class="a-second-img"><img src="./assets/images/readmegen.png" alt="Photo of calculator" class="calc-img"> </a>
           <div class="calc-text">
             <h3>ReadME Gen</h3>
             <p>JS/NODEJS</p>
           </div>
           </div>
-        </div>
-      </section>
-
-        <!-- This will hold the second set of images and the links taking you to the deployed application. -->
-      <section>
-      <div class="second-row col-9">
-        <div>
-        <a href="https://averynewhart.github.io/Day-Planner/" target="_blank"><img src="./assets/images/day-planner-screenshot.png" alt="Photo of pastel colors" class="pastel-img"> </a>
-        <div class="pastel-text">
-          <h3>Day Planner</h3>
-          <p>HTML/CSS/JS</p>
-        </div>
-        </div>
-        <div>
-        <a href="https://averynewhart.github.io/Musician-Website/" target="_blank"><img src="./assets/images/music.png" alt="Run buddy photo" class="run-img"> </a>
-        <div class="run-text">
-          <h3>Musician Website</h3>
-          <p>HTML/CSS</p>
-        </div>
-        </div>
       </div>
       </section>
 
-    <!-- This will be the contact area and the content needed to contact me. -->
-    <section>
-    <div class="contact">
-        <h2 id="con" class="col-3">Contact <br>Me</h2>
-    </div>
-    <div>
-        <ul>
-          <li>+1(717)681-6654</li>
-          <li>newhartreeceavery@gmail.com</li>
-          <li><a href="https://github.com/AveryNewhart/Avery-Module-2-Chal" target="_blank">Github</a></li>
-        </ul>
-    </div>
-    </section>
+      <section class="container-fluid">
+        <div class="row">
+        <div class="contact col-md-3">
+        <h2 id="con">Contact <br>Me</h2>
+        </div>
+          <div class="col-md-3">
+            <h4>+1(717)681-6654</h4>
+          </div>
+          <div class="col-md-3">
+            <h4>newhartreeceavery@gmail.com</h4>
+          </div>
+          <div class="col-md-3">
+            <h4><a href="https://github.com/AveryNewhart/Avery-Module-2-Chal" target="_blank">Github</a></h4>
+          </div>
+        </div>
+        </section>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>

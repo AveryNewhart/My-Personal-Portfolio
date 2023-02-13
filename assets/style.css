@@ -399,3 +399,7 @@ img {
     width: 10vw;
     height: 10vh;
 }
+
+.backgroundC {
+    background-color: purple;
+}
