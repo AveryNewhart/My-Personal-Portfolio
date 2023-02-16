@@ -1,117 +1,54 @@
-
-<!-- FIX SIZING FOR SRCEENS, POLISH, MAKE BEAUTFIUL!!!!!!! -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>My portfolio</title>
+    <title>Avery Newhart | About</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg backgroundC">
-      <div class="container-fluid">
-        <a class="navbar-brand">Avery Newhart</a>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#abt">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#wor">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#con">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="index.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="my-name my-name-large">Avery Newhart</h1>
+    </header>
+
+    <section class="content-section container">
+        <h2 class="section-header">About Me</h2>
+        <img class="about-me-image" src="assets/images/me.jpeg">
+        <p>My name is Avery Newhart and I'm 23 years old! I was born in the small town of Tunkhannock, Pennsylvania. After highschool, I went to Millersville University for a year before I ended up enlisting into the United States Air Force and did weather! I was stationed down south in Louisiana! Now I'm back to living in Pennsylvania and starting my new career! For fun I like to play video games, go on hikes, and watch sports!</p>
+        <p>While in highschool, I had a few classes regarding coding apps and designing websites and that is where my initial interest started. Another thing in highschool was that I played various sports which helped me become more of a leader, and a better ability and understanding of how to work as a team. Upon graduating highschool, I decided to not pursue that field so I decided to go for a dual major in special and early childhood education. While there for only my freshman year, I joined the fraternity Tau Kappa Epsilon which helped with my overall networking, and communication skills. After my freshman year, I enlisted into the United States Air Force and became a weather forecaster for the whole southeast quarter of the United States. I would issue warnings, watches, and advisories for bases or point sites to safeguard billions of dollars in equipment. While being in the region that I was, we dealt with a high level of severe weather from tornadoes to hurricanes and during those events, I had to work under a very high stress environment which has no room for errors, furthering my strength in mental toughness and the ability to work in high stress environments.</p>
+
+    </section>
     
-    <!-- <section class="container">
-    <header class="row">
-      <div>
-      <h1>Avery Newhart</h1>
-      </div>
-      <nav class="col-9">
-        <ul>
-          <li><a href=#abt>About Me</a></li>
-          <li><a href=#wor>Work</a></li>
-          <li><a href=#con>Contact Me</a></li>
-          <li><a href="https://docs.google.com/document/d/1XAxNFWbyNnlAmBqD9eQKEy6jVmvRzu4Oivavtxx2sDs/edit?usp=sharing" target="_blank">Resume</a></li>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+        <h3 class="my-name">Contacts</h3>
+        <ul class="nav footer-nav">
+            <li> 
+              <a>   
+                <p>newhartreeceavery@gmail.com</p>
+              </a>
+            </li>
+            <li>
+                <a href="www.linkedin.com/in/avery-newhart-0654a9263" target="_blank">
+                <p>LinkedIn</p>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/AveryNewhart" target="_blank">
+                <p>Github</p>
+                </a>
+            </li>
+            <li>
+              <a href="https://docs.google.com/document/d/1qLdQAMJpWMuR42K3zjjPuVEr6SNflDR7Uwsb2cQOWA8/edit?usp=sharing" target="_blank">
+              <p>Resume</p>
+              </a>
+          </li>
         </ul>
-      </nav>
-      </header>
-      </section>
-      <section>
-       <p class="subtitle">LETS GET IT!</p>
-      </section> -->
-
-      <!-- This section will be holding a recent picture of me and a brief section about me. -->
-      <section class="main-sec container-fluid">
-        <div class="row">
-        <div class="aboutme col-md-2">
-        <h2 id="abt">About <br>Me</h2>
         </div>
-        <div class="col-md-2">
-        <img src="./assets/images/me.jpeg" alt="Picture of me" class="me-img">
-        </div>
-        <div class="col-md-8">
-        <p>My names Avery Newhart and i'm 23 years old! I was born in Pennsylvania and then joined the Air Force and did weather! I was stationed down south in Louisiana! Now i'm back back to living in Pennsylvania and starting my new career! For fun I like to play vidoe games, go on hikes, and watch sports! </p>
-        </div>
-        </div>
-      </section>
-
-      <!-- This whole section will be the work section with all of my photos and links to my recent work. -->
-    <section class="container-fluid">
-      <div class="row">
-      <div class="work-div col-md-3">
-      <h2 id="wor">Work</h2>
-      </div>
-      <div class="biggest col-md-3">
-          <a href="https://averynewhart.github.io/Netflix-Review-Resource/" target="_blank"><img src="./assets/images/firstSS.png" alt="Surf report"> </a>
-          <div class="surf-text">
-          <h3>Netflix Review Resource</h3>
-          <p>HTML/CSS/JAVASCRIPT</p>
-          </div>
-      </div>
-      <div class="col-md-3">
-        <a href="https://github.com/AveryNewhart/Team-Profile-Generator" target="_blank"><img src="./assets/images/teamgen.png" alt="LED wall" class="led-img"> </a>
-        <div class="led-text">
-          <h3>Team Profile Gen</h3>
-          <p>JS/NODEJS/HTML/CSS</p>
-        </div>
-        </div>
-        <div class="col-md-3">
-          <a href="https://github.com/AveryNewhart/README-Generator" target="_blank" class="a-second-img"><img src="./assets/images/readmegen.png" alt="Photo of calculator" class="calc-img"> </a>
-          <div class="calc-text">
-            <h3>ReadME Gen</h3>
-            <p>JS/NODEJS</p>
-          </div>
-          </div>
-      </div>
-      </section>
-
-      <section class="container-fluid">
-        <div class="row">
-        <div class="contact col-md-3">
-        <h2 id="con">Contact <br>Me</h2>
-        </div>
-          <div class="col-md-3">
-            <h4>+1(717)681-6654</h4>
-          </div>
-          <div class="col-md-3">
-            <h4>newhartreeceavery@gmail.com</h4>
-          </div>
-          <div class="col-md-3">
-            <h4><a href="https://github.com/AveryNewhart/Avery-Module-2-Chal" target="_blank">Github</a></h4>
-          </div>
-        </div>
-        </section>
-      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
