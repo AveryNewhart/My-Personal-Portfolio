@@ -46,7 +46,7 @@ html, body {
 }
 
 .main-header {
-    background-image: url("/assets/images/turqpurp.jpeg");
+    background-image: url("./images/turqpurp.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 2vh;
@@ -99,7 +99,7 @@ footer {
 }
 
 .main-footer {
-    background-image: url("/assets/images/turqpurp.jpeg");
+    background-image: url("./images/turqpurp.jpeg");
     background-size: cover;
     color: white;
     padding: .25em 0;
