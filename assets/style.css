@@ -92,11 +92,11 @@ html, body {
     border-radius: 50%;
 }
 
-footer {
+ .footer-m {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
+} 
 
 .main-footer {
     background-image: url("./images/turqpurp.jpeg");
@@ -164,8 +164,10 @@ footer {
 }
 
 .work-footer {
-    position: absolute;
+    /* position: absolute; 
     bottom: 0;
-    width: 100%;
+    width: 100%; */
+    display: flex;
+    align-items: flex-end;
 }
 
