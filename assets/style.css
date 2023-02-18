@@ -13,6 +13,8 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .nav ul {
@@ -65,12 +67,15 @@ html, body {
     font-size: 5em;
 }
 
-/* .content-section {
-    margin: 1em;
-} */
+.content-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    padding-bottom: 14vh;
+} 
 
 
-.container {
+ .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
@@ -91,13 +96,7 @@ html, body {
     margin: 15px;
     border-radius: 50%;
 }
-
- .footer-m {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-} 
-
+ 
 .main-footer {
     background-image: url("./images/turqpurp.jpeg");
     background-size: cover;
@@ -105,6 +104,9 @@ html, body {
     padding: .25em 0;
     display: flex;
     align-items: flex-end;
+     position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .main-footer-container {
@@ -128,6 +130,7 @@ html, body {
 
 .shop-item {
     margin: 30px;
+    padding-bottom: 8vh;
 }
 
 .shop-item-title {
@@ -162,12 +165,3 @@ html, body {
     justify-content: space-around;
     align-items: center;
 }
-
-.work-footer {
-    /* position: absolute; 
-    bottom: 0;
-    width: 100%; */
-    display: flex;
-    align-items: flex-end;
-}
-
