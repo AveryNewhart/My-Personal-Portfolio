@@ -16,7 +16,7 @@
   - N/A
 
   ## Usage
-  - link to deployed site:  https://averynewhart.github.io/Portfolio-Version-Three/
+  - link to deployed site:  https://averynewhart.github.io/My-Personal-Portfolio/
   ![screenshot of website](./assets/images/newport.png)
 
   ## License
